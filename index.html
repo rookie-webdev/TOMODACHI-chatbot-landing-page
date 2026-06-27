@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomodachi</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+<div class="circle c3"></div>
+
+
+<header class="hero">
+
+<div class="hero-content">
+
+<div class="logo">
+<img src="images/logo.png" alt="Bot Logo">
+</div>
+
+<h1>TOMODACHI</h1>
+
+<p>
+Your AI assistant for questions, curiosity and casual chatting right inside your server.
+</p>
+
+<div class="buttons">
+
+<a href="https://discord.com/oauth2/authorize?client_id=1518011868315123733" target="_blank" class="btn invite">
+Invite Bot
+</a>
+
+<a href="https://discord.gg/dVjWpkc7d" target="_blank" class="btn support">
+Support Server
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="features">
+
+<h2>Key features</h2>
+
+<div class="grid">
+
+<div class="card">
+<i class="fa-solid fa-brain"></i>
+<h3>Smart AI</h3>
+<p>Understands complex questions and gives accurate, context-aware answers.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-bolt"></i>
+<h3>Fast</h3>
+<p>Responds instantly so conversations stay flowing.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-gamepad"></i>
+<h3>Fun</h3>
+<p>Friendly and expressive personality that keeps chats engaging with memes, games, and entertainment.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-shield-halved"></i>
+<h3>Reliable</h3>
+<p>Remembers key details, stays consistent throughout the conversation for most efficient responds.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="screenshot">
+
+<h2>Watch it in action</h2>
+
+<div class="monitor">
+
+<img src="images/screenshot.png">
+
+</div>
+
+</section>
+
+
+<section class="creator">
+
+<div class="creator-card">
+
+<img src="images/creator.jpg" alt="Creator">
+
+<div>
+
+<h2> Built by √𝗔ʟᴡɪɴ</h2>
+
+<p>
+Designed to make Discord communities smarter, faster, and more engaging.
+Always evolving with new features and improvements.
+Built by √𝗔ʟᴡɪɴ, an AI and database developer focused on practical systems.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+Built to make discord communities more active and useful.
+
+</footer>
+<script>
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+document.querySelectorAll("section").forEach(section=>{
+    observer.observe(section);
+});
+</script>
+</body>
+</html>
+
+
