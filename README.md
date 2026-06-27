@@ -1,44 +1,38 @@
-#  Discord AI Bot Landing Page
+# Discord chatBot Landing Page
 
-A modern, responsive landing page built for a Discord AI assistant chatbot.  
-Designed with HTML, CSS, and JavaScript.
-
----
-
-## 🌐 Live Demo
-👉 https://tomodachiai.kdns.fr/
+This is a simple landing page for a Discord AI bot I worked on as a beginner learning.
+It’s built with plain HTML, CSS, and a bit of JavaScript for animations.
 
 ---
 
-## ✨ Features
-- Responsive design (mobile + desktop)
-- Modern glassmorphism UI
-- Animated background effects
-- Feature showcase cards
-- Smooth scroll animations
+## Live Site
+https://tomodachiai.kdns.fr/
 
 ---
 
-## 🛠️ Tech Stack
-- HTML5
-- CSS3
-- JavaScript (Intersection Observer)
+## What it does
+- Shows off the bot and its features
+- Responsive design (works on mobile too)
+- Smooth animations when scrolling
+- Clean UI with a dark theme
+- Preview section & creator card added
+
+---
+
+## Built with
+- HTML
+- CSS
+- JavaScript
 - Font Awesome
-- Google Fonts (Poppins)
+- Google Fonts(poppins)
 
 ---
-
-## 📦 Deployment
-- Hosted on Railway
-- Connected with custom domain
-- Auto-deployed from GitHub
-
+## Hosting
+Deployed on Railway and connected to a custom domain.
+## Credits
+Built for a friend. He provided the domain and helped host it online.
 ---
 
-## 👤 Creator
-Built by **Jb**
+## Notes
+This is just the frontend. The bot itself runs separately on Discord.
 
----
-
-## 📌 Note
-This is a frontend landing page. Bot functionality is handled separately.
